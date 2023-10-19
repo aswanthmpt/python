@@ -45,7 +45,7 @@
        
 # print(ls)
     
-
+##1
 # for i in range(1,6):
 #      for j in range(1,i+1):
 #          print("*",end=" ")
@@ -55,6 +55,7 @@
 #          print("*",end=" ")
 #      print("\n")
 
+##2
 # j=0
 # p=0
 
@@ -70,12 +71,14 @@
 
     
     
-
+##3
 # for i in range(1,7):
 #     if i%3==0:
 #         continue
 #     print(i)
 
+
+##4
 # first=0
 # second=1
 # third=first+second
@@ -90,12 +93,47 @@
 #     third=first+second
 #     print(third)
     
-     
-for i in range(1,6):
-    for j in range(1,i+1):
-        print("*",end=" ")
-    print("\n")
-for i in range(1,6):
-    for j in range(1,6-i):
-        print("*",end=" ")
-    print("\n")
+  ##6   
+# for i in range(1,6):
+#     for u in range(1,6-i):
+#         print(" ",end="")
+#     for j in range(1,i+1):
+#         print("*",end=" ")
+#     print("\n")
+# for i in range(1,6):
+#     for u in range(1,i+1):
+#         print(" ",end="")
+#     for j in range(1,6-i):
+#         print("*",end=" ")
+#     print("\n")
+
+
+
+##7
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(j,end=" ")
+#     print("\n")
+
+   
+   
+   ##8
+# for i in range(1,6):
+#     for u in range(1,6-i):
+#         print(" ",end="")
+#     for j in range(1,i+1):
+#         print("*",end=" ")
+#     print("\n")
+
+##9
+
+# j=0
+# b=123
+# while b>0:
+#     q=b%10
+#     j=j+q
+#     b=b/10
+# print("sum=",j)
+ 
+ ##10
+ls=[10,12,4,6,7,8]
