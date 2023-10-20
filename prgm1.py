@@ -19,6 +19,24 @@
 # total=a+b+c+d+e
 # print ("total mark is",total)
 
+#largest
+
+# a=int(input("enter number"))
+# b=int(input("enter second number"))
+# c=int(input("enter third number"))
+
+
+# if a>b & a>c:
+#  print(a,"is larger")
+# elif b>a & b>c:
+#  print(b," is larger")
+
+# else:
+#     print(c,"is larger")
+
+
+
+
 # f=((a+b+c+d+e)/500)*100
 
 # if f>=85:
