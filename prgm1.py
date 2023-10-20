@@ -1,3 +1,27 @@
+##grade
+
+# a=int(input("enter mark"))
+
+# if a>=90 :
+#     print("A+")
+# elif a>=80:
+#      print("A")
+# elif a>=70:
+#      print("B+")
+# elif a>=60:
+#      print("B")  
+# elif a>=50:
+#      print("C+") 
+# elif a>=40:
+#      print("C") 
+# elif a>=30:
+#      print("D+")    
+# else:
+#      print("faild")                   
+
+
+##signal
+
 # a=str(input("give colour :"))
 
 # if a=="green":
@@ -9,15 +33,10 @@
 # else :
 #     print("un recognized signal")
 
-# name=str(input("enter the name of the student"))
-# rollno=int(input("enter the roll no"))
-# a=int(input("enter the 1st subject mark"))
-# b=int(input("enter the 2nd subject mark"))
-# c=int(input("enter the 3rd subject mark"))
-# d=int(input("enter the 4th subject mark"))
-# e=int(input("enter the 5th subject mark"))
-# total=a+b+c+d+e
-# print ("total mark is",total)
+
+
+
+
 
 #largest
 
@@ -36,7 +55,17 @@
 
 
 
+##mark
 
+# name=str(input("enter the name of the student"))
+# rollno=int(input("enter the roll no"))
+# a=int(input("enter the 1st subject mark"))
+# b=int(input("enter the 2nd subject mark"))
+# c=int(input("enter the 3rd subject mark"))
+# d=int(input("enter the 4th subject mark"))
+# e=int(input("enter the 5th subject mark"))
+# total=a+b+c+d+e
+# print ("total mark is",total)
 # f=((a+b+c+d+e)/500)*100
 
 # if f>=85:
@@ -52,6 +81,11 @@
 # else:
 #     print("error")
 
+
+
+
+
+## GRADE
 # g=str(input("enter the grade:"))
 
 # if g=="A":
@@ -240,3 +274,10 @@
 #     print(" no discount")
     
 
+##odd or even
+# a=int(input("enter a number"))
+
+# if a%2==0:
+#     print("even number")
+# else:
+#     print("odd number")

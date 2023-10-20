@@ -1,4 +1,6 @@
  
+##buzz for 5
+
 # for i in range(1,6):
 #     for j in range(1,i+1):
 #         print("*",end=" ")
@@ -8,30 +10,33 @@
 # for i in range(1,101):
 #   if i%5==0 :
 #         i="buzz"
-#     ls.append(i)
+#   ls.append(i)
        
 # print(ls)
 
+
+##fizz for 3
 # ls=[]
 # for i in range(1,101):
 #   if i%3==0 :
 #         i="fizz"
-#     ls.append(i)
+#   ls.append(i)
        
 # print(ls)
 
+
+
+##bothh
 # ls=[]
 # for i in range(1,101):
    
-#     if i%5==0 and i%3number=(1,2,3,4,5,6,7,8,9)
-# count=number(2)
-# print(count)==0:
-#         i="fizzbuzz"
+#     if i%5==0 and i%3==0:
+#       i="fizzbuzz"
 #     ls.append(i)
        
 # print(ls)
 
-
+##for 3 fizz for five buzz both fizzbuzz
 # ls=[]
 # for i in range(1,101):
    
