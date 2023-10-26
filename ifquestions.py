@@ -1,26 +1,4 @@
-##grade
-
-# a=int(input("enter mark"))
-
-# if a>=90 :
-#     print("A+")
-# elif a>=80:
-#      print("A")
-# elif a>=70:
-#      print("B+")
-# elif a>=60:
-#      print("B")  
-# elif a>=50:
-#      print("C+") 
-# elif a>=40:
-#      print("C") 
-# elif a>=30:
-#      print("D+")    
-# else:
-#      print("faild")                   
-
-
-##signal
+##1signal
 
 # a=str(input("give colour :"))
 
@@ -35,27 +13,7 @@
 
 
 
-
-
-
-#largest
-
-# a=int(input("enter number"))
-# b=int(input("enter second number"))
-# c=int(input("enter third number"))
-
-
-# if a>b & a>c:
-#  print(a,"is larger")
-# elif b>a & b>c:
-#  print(b," is larger")
-
-# else:
-#     print(c,"is larger")
-
-
-
-##mark
+## 2mark
 
 # name=str(input("enter the name of the student"))
 # rollno=int(input("enter the roll no"))
@@ -82,10 +40,19 @@
 #     print("error")
 
 
+## odd or even
+##odd or even
+# a=int(input("enter a number"))
+
+# if a%2==0:
+#     print("even number")
+# else:
+#     print("odd number")
 
 
 
-## GRADE
+
+## 4 GRADE
 # g=str(input("enter the grade:"))
 
 # if g=="A":
@@ -100,16 +67,14 @@
     
 # elif g=="D":
 #     print("YOU CAN DO BETTER")
-    
-
-    
-# elif g=="F":
+    # elif g=="F":
 #     print("YOU NEED TO WORK HARDER")
 # else:
 #     print("err")
 
 
 
+## 3 calculator
 # a=int(input("enter the first number"))
 # b=int(input("enter the second number"))
 # c=str(input("enter the operator"))
@@ -125,6 +90,13 @@
 
 # print(d)
 
+
+
+
+
+
+## 4 leap year
+
 # a=int(input("enter the year"))
  
 # if a%4==0:
@@ -132,6 +104,11 @@
 # else:
 #     print("not leap year")
 
+
+
+
+
+##5 workday
 
 # a=str(input("enter the day:"))
  
@@ -161,7 +138,9 @@
      
      
      
-# a=float(input("enter the time in 14 hr format: "))
+     
+##6  time
+# a=float(input("enter the time in 24 hr format: "))
 
 # if a<5 :
 #     print("good night")
@@ -172,21 +151,16 @@
     
 # elif a<17:
 #     print("good afternoon")
-    
 # elif a<21:
 #     print("good evening")    
 # elif a<24:
 #     print("good night")
-
-
-
-
-
 # else :
 #     print("err")
- 
- 
 
+
+
+##7 ticket
 
 # f=int(input("enter the age"))
 
@@ -202,27 +176,30 @@
 # else:
 #     print("err")
 
-##break
+
+##8
+a=int(input('enter your weight'))
+b=int(input('enter your height'))
+c=b/100
+d=a/c
+print("bmi is",d)
+if d<18.5:
+    print("under weight")
+elif d>29.9:
+    print("obese")
+elif d>=24.9:
+    print("over weight")
+elif d>=18.5:
+    print("normal weight")
+
+
+else:
+    print("error")
 
 
 
 
-
-
-# a=str(input("give weather :"))
-
-# if a=="sunny":
-#      print("dont forget your sunscreen")
-# elif a=="rainy":
-#     print("remember to bring an umbrella")
-# elif a=="cloudy":
-#      print("it might a little cool today")
-# else :
-#      print("un recognized signal")
-
-
-
-
+##9 month
 
 # f=int(input("enter the number"))
 
@@ -255,6 +232,40 @@
 
 
 
+##10 weather
+
+# a=str(input("give weather :"))
+
+# if a=="sunny":
+#      print("dont forget your sunscreen")
+# elif a=="rainy":
+#     print("remember to bring an umbrella")
+# elif a=="cloudy":
+#      print("it might a little cool today")
+# else :
+#      print("un recognized signal")
+
+
+#11  season
+
+# m=int(input('enter the month month number'))
+# if m==12:
+#     print("winter")
+# elif m>9:
+#     print("automn")
+# elif m>5:
+#     print("fall")
+# elif m>3:
+#     print("summer")
+# elif m>2:
+#     print("spring")
+# elif m>0:
+#     print("winter")
+# else:
+#     print("error")
+
+##12 discount
+
 # f=int(input("enter the total amount"))
 
 # if f>=100:
@@ -266,18 +277,56 @@
 #     a=(f/100)*5
 #     c=f-a
 #     print("your amount is",c)
-    
-
-
-    
 # else:
 #     print(" no discount")
-    
 
-##odd or even
-# a=int(input("enter a number"))
 
-# if a%2==0:
-#     print("even number")
+###13 yser password###
+
+# k="aswanth"
+# p=9048
+# a=str(input("enter the user name"))
+# b=int(input("enter the password"))
+# if a==k and b==p:
+#     print("login sucessfull")
 # else:
-#     print("odd number")
+#     print("login faild")
+
+
+
+##14 tax
+
+# a=int(input("enter your annual income"))
+# b=0
+# if a<=10000:
+#     print("notax")
+# elif a>10000:
+#      b=(10*a)/100
+   
+# elif a>50000:
+#      b=(20*a)/100
+  
+# elif a>100000:
+#      b=(30*a)/100
+# else:
+#     print("error")
+# print("the tax is",b)
+
+
+## 15grade
+
+# a=int(input("enter mark"))
+
+# if a>=90 :
+#     print("A")
+# elif a>=80:
+#      print("B")
+# elif a>=70:
+#      print("C")
+# elif a>=60:
+#      print("D")  
+# elif a<60:
+#      print("fail")   
+# else:
+#      print("err")                   
+
