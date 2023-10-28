@@ -37,7 +37,7 @@
 #     print("false")
 
 ##4
-
+ls=[]
  
 
     
@@ -50,9 +50,8 @@
 # x=dis(c,d)
 # print("the amount is:",c-x)
 
+
 ##6
-
-
 # def fnd(string):
 #     x=len(string)
 #     y=""
@@ -60,16 +59,18 @@
 #     for i in range(x-1,-1,-1):
 #      y=y+string[i]
 #     return y
-
-
-
 # print(fnd("helloworld"))
 
 
 ##7
+
+# c=int(input("enter the base number :"))
+
+# d=int(input("enter the exponent number :"))
 # def computepower(a,b):
 #     return a**b
-# x=computepower(6,2)
+
+# x=computepower(c,d)
 # print(x)
 
 ##8
