@@ -33,9 +33,11 @@
 
 
 ls=[1,2,3,4,5,6,7]
-lss=ls[::-1]
-print(lss)
-
+# lss=ls[::-1]
+# print(lss)
+def asd(a):
+    
+asd(ls)
 
 ##string functions
 
