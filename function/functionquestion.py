@@ -37,7 +37,19 @@
 #     print("false")
 
 ##4
-ls=[]
+# ls=[1,8,4,5,6,9]
+# lss=[0]
+
+# def asd(a):
+#     max=lss[0]
+    
+#     for i in ls:
+#         if i>max:
+#             max=i
+#     return max
+# x=asd(ls)
+# print(x)
+    
  
 
     

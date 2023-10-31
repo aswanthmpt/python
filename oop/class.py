@@ -6,10 +6,62 @@
 # bike=vehicle()
 # bike.start()
 
-class vehicle:
-    wheel=2
-    mirror=2
-    def start(self,a,b):
-         print(a,b)
-bike=vehicle()
-bike.start("engine","cc")
+# class vehicle:
+#     wheel=2
+#     mirror=2
+#     def start(self,a,b):
+#          print(a,b)
+# bike=vehicle()
+# bike.start("engine","cc")
+
+
+# class vehicle:
+#     color="red"
+#     def start(self):
+#          print("color is",self.color)
+# car=vehicle()
+# car.start()
+
+
+# class vehicle:
+#     def setcolor(self,color):
+#         self.color=color
+#     def start(self):
+#          print("color is",self.color)
+# car=vehicle()
+# car.setcolor("yellow")
+# car.start()
+
+
+# class vehicle:
+#     def __init__(self,color,tyre):
+#         self.color=color
+#         self.tyre=tyre
+#     def start(self):
+#          print("color is",self.color,"tyre is",self.tyre)
+# car=vehicle("red",4)
+# car.start()
+
+class animal:
+    def __init__(self,eye,leg,tail):
+        self.eye=eye
+        self.leg=leg
+        self.tail=tail
+    def eyee(self):
+        print("it has",self.eye,"eyes")
+    def legg(self):
+        print("it has",self.leg,"legs")
+    def taill(self):
+        print("it has",self.tail,"tail")
+    
+petanimal=animal(2,4,1)
+petanimal.eyee()
+petanimal.legg()
+petanimal.taill()
+wildanimal=animal(2,4,1)
+petanimal.eyee()
+petanimal.legg()
+petanimal.taill()
+
+
+
