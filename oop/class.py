@@ -42,26 +42,59 @@
 # car=vehicle("red",4)
 # car.start()
 
-class animal:
-    def __init__(self,eye,leg,tail):
-        self.eye=eye
-        self.leg=leg
-        self.tail=tail
-    def eyee(self):
-        print("it has",self.eye,"eyes")
-    def legg(self):
-        print("it has",self.leg,"legs")
-    def taill(self):
-        print("it has",self.tail,"tail")
+# class animal:
+#     def __init__(self,eye,leg,tail):
+#         self.eye=eye
+#         self.leg=leg
+#         self.tail=tail
+#     def eyee(self):
+#         print("it has",self.eye,"eyes")
+#     def legg(self):
+#         print("it has",self.leg,"legs")
+#     def taill(self):
+#         print("it has",self.tail,"tail")
     
-petanimal=animal(2,4,1)
-petanimal.eyee()
-petanimal.legg()
-petanimal.taill()
-wildanimal=animal(2,4,1)
-petanimal.eyee()
-petanimal.legg()
-petanimal.taill()
+# petanimal=animal(2,4,1)
+# petanimal.eyee()
+# petanimal.legg()
+# petanimal.taill()
+# wildanimal=animal(2,4,1)
+# wildanimal.eyee()
+# wildanimal.legg()
+# wildanimal.taill()
 
+
+
+####
+# class vehicle:
+#     def engine(self):
+#         print("all vehicles have engine")
+# class car(vehicle):
+#     def fourwheeler(self):
+#         print("car have 4 wheels")
+# class bike(vehicle):
+#     def twowheeler():
+#         print("bike have 2 wheel")
+# c=car()
+# c.fourwheeler()
+# c.engine()
+
+# ##
+# class granpa:
+#     def farmer(self):
+#         print("farmer") 
+#     def driver(self):
+#         print("driver")
+# class father(granpa):
+#     def reader(self):
+#         print("reader")
+# class me(father):
+#     def engineer(self):
+#         print("engineer")
+# c=me()
+# c.driver()
+# c.reader()
+# c.engineer()
+######
 
 
