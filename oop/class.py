@@ -95,6 +95,39 @@
 # c.driver()
 # c.reader()
 # c.engineer()
-######
+# ######
 
 
+class libraryitem:
+    def title(self):
+        print("wings of fire")
+    def author(self):
+        print("APJ Abdhul kalam")
+    def id(self):
+        print("1000")
+class book(libraryitem):
+    def numpages(self):
+        print("500d")
+    def readbook(self):
+        print("reading the book")
+    
+class dvd(libraryitem):
+    def duration(self):
+        print("3:00 hours")
+    def dvdplay(self):
+        print("playing the dvd")
+c=book()
+c.title()
+c.author()
+c.id()
+c.numpages()
+c.readbook()
+
+d=dvd()
+d.title()
+d.author()
+d.id()
+d.duration()
+d.dvdplay()
+
+    
