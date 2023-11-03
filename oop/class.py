@@ -98,36 +98,81 @@
 # ######
 
 
-class libraryitem:
-    def title(self):
-        print("wings of fire")
-    def author(self):
-        print("APJ Abdhul kalam")
-    def id(self):
-        print("1000")
-class book(libraryitem):
-    def numpages(self):
-        print("500d")
-    def readbook(self):
-        print("reading the book")
+# class libraryitem:
+#     def title(self):
+#         print("wings of fire")
+#     def author(self):
+#         print("APJ Abdhul kalam")
+#     def id(self):
+#         print("1000")
+# class book(libraryitem):
+#     def numpages(self):
+#         print("500d")
+#     def readbook(self):
+#         print("reading the book")
     
-class dvd(libraryitem):
-    def duration(self):
-        print("3:00 hours")
-    def dvdplay(self):
-        print("playing the dvd")
-c=book()
-c.title()
-c.author()
-c.id()
-c.numpages()
-c.readbook()
+# class dvd(libraryitem):
+#     def duration(self):
+#         print("3:00 hours")
+#     def dvdplay(self):
+#         print("playing the dvd")
+# c=book()
+# c.title()
+# c.author()
+# c.id()
+# c.numpages()
+# c.readbook()
 
-d=dvd()
-d.title()
-d.author()
-d.id()
-d.duration()
-d.dvdplay()
+# d=dvd()
+# d.title()
+# d.author()
+# d.id()
+# d.duration()
+# d.dvdplay()
 
     
+    ###encapsulation
+    
+# class bank:
+#     def __init__(self,accountno,savings):
+#         self.accountno=accountno
+#         self.savings=savings
+#     def deposit(self)
+    
+        
+        
+        
+        
+
+
+# class A:
+#     _a=10
+#     def disp(self):
+#         print(self._a)
+# obj=A()
+# obj.disp()
+# print(obj._a)
+        
+    
+    ##abstract
+from abc import ABC,abstractmethod
+class vehicle(ABC):
+    def engine(self):
+        print("engine provide")
+    @abstractmethod
+    def gear(self):
+        pass
+class car(vehicle):
+    def gear(self):
+        print("automatic gear")
+class truck(vehicle):
+    def wheel(self):
+        print("heavy")
+    def gear(self):
+        print("mannual gear")
+c=car()
+c.gear()
+t=truck()
+                                         
+
+        
