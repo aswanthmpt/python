@@ -186,11 +186,21 @@
 # else:
 #     print("not validate")
 
+# import re
+# asd=str(input("enter the date :"))
+# terms="^([012][1-9]|3[01]|[12]0)(.|\|-)([0][1-9]|1[012])(.|\|-)(\d{3}[1-9]|[1-9]{3}[0-9])$"
+# x=re.search(terms,asd)
+# if x:
+#     print("validate")
+# else:
+#     print("not validate")
+    
+    
+    
 import re
-
-terms="^([0-3][0-9])\W([0-1][0-9])\W([1-2][0-9][0-9][0-9])$"
-x=re.search(terms,"28-11-2023")
+terms="^[a-zA-Z]\w{3,25}@[a-z][com]|^[a-zA-Z]\w{3,25}@[a-z][in]"
+x=re.search(terms,"ase23@com")
 if x:
-    print("validate")
+    print("vallid")
 else:
-    print("not validate")
+    print("not valid")
