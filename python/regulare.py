@@ -23,7 +23,7 @@
 # if x:
 #     print("matched")
 # else:
-#     print("not matched")
+#     print("not matched")[a-zA-Z].+@[a-zA-Z]{2,}\.[A-Za-z]{2,}$
     
 # import re
 # terms="[a-zA-Z0-9]......"
@@ -35,7 +35,7 @@
 
 
 # import re    **^ for starting
-# terms="^aswanth"
+# terms="^aswanth"[a-zA-Z].+@[a-zA-Z]{2,}\.[A-Za-z]{2,}$
 # x=re.match(terms,"aswanth hello")
 # if x:
 #     print("matched")
@@ -63,7 +63,7 @@
 # terms="aswanth+"
 # x=re.search(terms,"aswanthhhhhhh")
 # if x:
-#     print("matched")
+#     print("matched")[a-zA-Z].+@[a-zA-Z]{2,}\.[A-Za-z]{2,}$
 # else:
 #     print("not matched")
 
@@ -197,10 +197,53 @@
     
     
     
+# import re
+# terms="^[a-zA-Z].+@[a-zA-Z]{2,}\.[A-Za-z]{2,}$"
+# x=re.search(terms,"aswanth123@gmail.com")
+# if x:
+#     print("vallid")
+# else:
+#     print("not valid")
+
+# import re
+# terms="^[A-Z][A-Za-z]{3,}\W\w{3,}$"
+# asd=str(input("enter password :"))
+# x=re.search(terms,asd)
+# if x:
+#     print("vallid")
+# else:
+#     print("not valid")
+
+# import re
+# terms="a|e|i|o|u"
+# asd=str(input("enter a string :"))
+# x=re.findall(terms,asd)
+# print(x)
+# print(len(x))
+
 import re
-terms="^[a-zA-Z]\w{3,25}@[a-z][com]|^[a-zA-Z]\w{3,25}@[a-z][in]"
-x=re.search(terms,"ase23@com")
+asd=str(input("enter the user name : "))
+terms="^[a-zA-Z]\w{3,25}$"
+x=re.search(terms,asd)
+
 if x:
-    print("vallid")
+    print("username validate")
 else:
-    print("not valid")
+    print("username not validate")
+pp=str(input("enter email :"))
+email="^[a-zA-Z].+@[a-zA-Z]{2,}\.[A-Za-z]{2,}"
+y=re.search(email,pp)
+if y:
+    print("email validate")
+else:
+    print("email not validate")
+terms="^[A-Z][A-Za-z]{3,}\W\w{3,}$"
+qq=str(input("enter password :"))
+passw="^[A-Z][A-Za-z]{3,}\W\w{3,}$"
+z=re.search(passw,qq)
+if z:
+    print("password vallid")
+else:
+    print("password not valid")
+    
+
