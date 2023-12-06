@@ -5,7 +5,7 @@ class myclass:
         frame.pack()
         self.btn=Button(frame,text="ok",command=self.oks)
         self.btn.pack()
-        self.bt1=Button(frame,text="quit",command=self.quit)
+        self.bt1=Button(frame,text="quit",command=frame.quit)
         self.bt1.pack()
 
 def oks(self):
