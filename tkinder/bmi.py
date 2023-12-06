@@ -9,6 +9,15 @@ def bmi():
     ht=num1/100
     bm=num2/(ht*ht)
     res.set(bm)
+    if bm>=30:
+        red.set("obesity")
+    elif bm>=25:
+        red.set("over weight")
+    elif bm>=18.5:
+        red.set("normal weight")
+    elif bm<2518:
+        red.set("under weight")
+    
 l1=Label(frame,text="enter height in cm")
 e1=Entry(frame)
 l1.grid(row=0,column=0)
@@ -34,6 +43,11 @@ res=StringVar()
 res.set("BMI is")
 l3=Label(root,textvariable=res)
 l3.pack()
+
+red=StringVar()
+red.set("result")
+l4=Label(root,textvariable=red)
+l4.pack()
 
 
 
