@@ -18,17 +18,17 @@ def bmi():
     elif bm<2518:
         red.set("under weight")
     
-l1=Label(frame,text="enter height in cm")
+l1=Label(frame,text="enter height in cm",bg="green",fg="white")
 e1=Entry(frame)
 l1.grid(row=0,column=0)
 e1.grid(row=0,column=1)
 
-l2=Label(frame,text="enter weight in  kg")
+l2=Label(frame,text="enter weight in  kg",bg="green",fg="white")
 e2=Entry(frame)
 l2.grid(row=1,column=0)
 e2.grid(row=1,column=1)
 
-l3=Label(frame,text="enter your age")
+l3=Label(frame,text="enter your age",bg="green",fg="white")
 e3=Entry(frame)
 l3.grid(row=2,column=0)
 e3.grid(row=2,column=1)
@@ -36,7 +36,7 @@ e3.grid(row=2,column=1)
 
 fr=Frame(root)
 fr.pack()
-bt=Button(fr,text="submit",command=bmi)
+bt=Button(fr,text="submit",command=bmi,bg="red",fg="white")
 bt.grid(row=0,column=0)
 
 res=StringVar()
