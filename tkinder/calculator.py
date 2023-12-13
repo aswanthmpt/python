@@ -1,7 +1,7 @@
-from tkinder import *
+from tkinter import *
 root=Tk()
 root.title("Calcualtor")
-root.geometry("312x324")
+root.geometry("440x360")
 frame=Frame(root, width = 312, height = 50, bd = 0, highlightbackground = "black", highlightcolor = "black", 
 highlightthickness = 1 )
 frame.pack(side = TOP)
@@ -16,13 +16,14 @@ e1=Entry(frame, font = ('arial', 18, 'bold'),textvariable= res, bg = "white",wid
 justify = RIGHT)
 e1.grid(row=0,column=0)
 
+
+
 f1 = Frame(root,width = 312, height = 272.5, bg = "grey") 
 f1.pack() 
 
 
 
-c = Button(f1, text = "C", fg = "black", width = 
-32, height = 3, bd = 0, bg = "grey", cursor = "hand2")
+c = Button(f1, text = "C", fg = "black", width = 38, height = 3, bd = 0, bg = "grey", cursor = "hand2")
 c.grid(row = 0, column = 0, columnspan = 3, padx = 1, pady = 1) 
 
 d = Button(f1, text = "/", fg = "black", width = 
@@ -83,7 +84,7 @@ add = Button(f1, text = "+", fg = "black", width =
 add.grid(row = 3, column = 3, padx = 1, pady = 1) 
 
 
-zero = Button(f1, text = "0", fg = "black", width = 21, height = 3, bd = 0, bg = "#fff", cursor = "hand2")
+zero = Button(f1, text = "0", fg = "black", width = 23, height = 3, bd = 0, bg = "#fff", cursor = "hand2")
 zero.grid(row = 4, column = 0, columnspan = 2, padx = 1, pady = 1) 
 
 
@@ -101,3 +102,5 @@ equals.grid(row = 4, column = 3, padx = 1, pady = 1)
 
 
 root.mainloop()
+
+
