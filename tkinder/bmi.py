@@ -15,7 +15,7 @@ def bmi():
         red.set("over weight")
     elif bm>=18.5:
         red.set("normal weight")
-    elif bm<2518:
+    elif bm<18:
         red.set("under weight")
     
 l1=Label(frame,text="enter height in cm",bg="green",fg="white")
