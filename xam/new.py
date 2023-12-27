@@ -13,26 +13,50 @@
 # x=asd(ls)
 # print(x)
 
+
 ###2
+# astr = "malayalam"
+# out = {x : astr.count(x) for x in set(astr )}
+# print ( str(out))
+
+
 ###3
-###4
-c=0
-class dep:
+
+# a=int(input("enter the number"))
+# b=int(input("enter the divisor"))
+# try:
    
-   def deposit(self):
-     
-      a=int(input("enter the deposit amount:"))
-      c=c+a
-class wid:
-   def widraw(self):
-      b=int(input("enter the widrawal amount:"))
-      c-b
-class bal:
-   def balance(self):
-      print(c)
+#     print(a/b)
+    
+# except:
+#     print("cant divisible by zero")
+#     a=int(input("enter the number"))
+#     b=int(input("enter the divisor"))
+#     print(a/b)
+
+###4
+
+# class dep:
+#    def deposit(self):
+#       self.c=0
+#       a=int(input("enter the deposit amount:"))
+#       self.c=self.c+a
+
+#    def withdraw(self):
+#       b=int(input("enter the withdrawal amount:"))
+#       if self.c>=b:
+#          print("tour withdrawal amount is",b)
+#       else:
+#          print("insufficient balance")
+#       self.c=self.c-b
+
+#    def balance(self):
+#       print("your balance is :",self.c)
       
-d=dep()
-d.deposit()
+# d=dep()
+# d.deposit()
+# d.withdraw()
+# d.balance()
       
    
 ###5
